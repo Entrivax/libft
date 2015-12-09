@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 10:54:12 by lpilotto          #+#    #+#             */
-/*   Updated: 2015/12/08 09:13:43 by lpilotto         ###   ########.fr       */
+/*   Updated: 2015/12/09 14:15:18 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,4 +83,6 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				ft_putnbrendl(int n);
 void				ft_putnbrendl_fd(int n, int fd);
+void				ft_strtolower(char *s);
+void				ft_strtoupper(char *s);
 #endif
