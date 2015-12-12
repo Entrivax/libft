@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 13:07:37 by lpilotto          #+#    #+#             */
-/*   Updated: 2015/12/09 12:24:52 by lpilotto         ###   ########.fr       */
+/*   Updated: 2015/12/09 16:11:36 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	s1len = ft_strlen(s1);
 	len = s1len + ft_strlen(s2);
-	str = ft_strnew(len);
+	if ((str = ft_strnew(len)) == NULL)
+		return (NULL);
 	i = 0;
 	while (i < s1len)
 	{

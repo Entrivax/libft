@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 12:18:41 by lpilotto          #+#    #+#             */
-/*   Updated: 2015/12/09 12:16:42 by lpilotto         ###   ########.fr       */
+/*   Updated: 2015/12/09 16:10:52 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!s || !f)
 		return (NULL);
 	length = ft_strlen(s);
-	str = ft_strnew(length);
+	if ((str = ft_strnew(length)) == NULL)
+		return (NULL);
 	i = 0;
 	while (i < length)
 	{

@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 12:07:24 by lpilotto          #+#    #+#             */
-/*   Updated: 2015/12/09 12:16:11 by lpilotto         ###   ########.fr       */
+/*   Updated: 2015/12/09 16:01:46 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,8 @@ char	*ft_strmap(char const *s, char (*f)(char))
 	if (!s || !f)
 		return (NULL);
 	length = ft_strlen(s);
-	str = ft_strnew(length);
+	if ((str = ft_strnew(length)) == NULL)
+		return (NULL);
 	i = 0;
 	while (i < length)
 	{

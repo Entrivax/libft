@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 10:07:43 by lpilotto          #+#    #+#             */
-/*   Updated: 2015/11/29 10:14:29 by lpilotto         ###   ########.fr       */
+/*   Updated: 2015/12/10 12:08:05 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 void	ft_memdel(void **ap)
 {
+	if (ap == NULL || *ap == NULL)
+		return ;
 	free(*ap);
 	*ap = NULL;
 }

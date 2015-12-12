@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 15:04:50 by lpilotto          #+#    #+#             */
-/*   Updated: 2015/11/29 15:10:14 by lpilotto         ###   ########.fr       */
+/*   Updated: 2015/12/10 12:09:49 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 void	ft_putendl(char const *s)
 {
-	ft_putstr(s);
+	if (s != NULL)
+		ft_putstr(s);
 	ft_putchar('\n');
 }
