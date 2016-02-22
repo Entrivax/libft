@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 10:54:12 by lpilotto          #+#    #+#             */
-/*   Updated: 2016/01/12 12:27:14 by lpilotto         ###   ########.fr       */
+/*   Updated: 2016/02/22 11:53:16 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,6 @@ typedef struct		s_list
 	size_t			content_size;
 	struct s_list	*next;
 }					t_list;
-
-typedef struct		s_file
-{
-	int				fd;
-	char			*buf;
-}					t_file;
 
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *s, size_t n);
