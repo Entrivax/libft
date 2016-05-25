@@ -6,7 +6,7 @@
 #    By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/29 10:23:41 by lpilotto          #+#    #+#              #
-#    Updated: 2016/01/12 12:29:05 by lpilotto         ###   ########.fr        #
+#    Updated: 2016/04/11 11:56:40 by lpilotto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,12 +31,14 @@ INPUT=ft_memset.c \
 	  ft_strnstr.c \
 	  ft_strcmp.c \
 	  ft_strncmp.c \
+	  ft_atof.c \
 	  ft_atoi.c \
 	  ft_isalpha.c \
 	  ft_isdigit.c \
 	  ft_isalnum.c \
 	  ft_isascii.c \
 	  ft_isprint.c \
+	  ft_isnumber.c \
 	  ft_toupper.c \
 	  ft_tolower.c \
 	  ft_memalloc.c \
@@ -65,7 +67,9 @@ INPUT=ft_memset.c \
 	  ft_putnbr_fd.c \
 	  ft_isspace.c \
 	  ft_abs.c \
+	  ft_max.c \
 	  ft_lstnew.c \
+	  ft_lstnewfrom.c \
 	  ft_lstdelone.c \
 	  ft_lstdel.c \
 	  ft_lstadd.c \
