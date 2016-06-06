@@ -6,7 +6,7 @@
 #    By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/29 10:23:41 by lpilotto          #+#    #+#              #
-#    Updated: 2016/04/11 11:56:40 by lpilotto         ###   ########.fr        #
+#    Updated: 2016/06/06 15:10:35 by lpilotto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,7 +79,8 @@ INPUT=ft_memset.c \
 	  ft_putnbrendl_fd.c \
 	  ft_strtolower.c \
 	  ft_strtoupper.c \
-	  get_next_line.c
+	  get_next_line.c \
+	  ft_fclamp.c
 OBJ=$(subst .c,.o,$(INPUT))
 FLAGS=-Wall -Werror -Wextra
 

@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 10:54:12 by lpilotto          #+#    #+#             */
-/*   Updated: 2016/04/11 11:56:26 by lpilotto         ###   ########.fr       */
+/*   Updated: 2016/06/06 15:10:14 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,4 +91,5 @@ void				ft_putnbrendl_fd(int n, int fd);
 void				ft_strtolower(char *s);
 void				ft_strtoupper(char *s);
 int					get_next_line(int const fd, char **line);
+double				ft_fclamp(double n, double min, double max);
 #endif
