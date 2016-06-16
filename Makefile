@@ -6,7 +6,7 @@
 #    By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/29 10:23:41 by lpilotto          #+#    #+#              #
-#    Updated: 2016/06/06 15:10:35 by lpilotto         ###   ########.fr        #
+#    Updated: 2016/06/16 12:27:22 by lpilotto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,6 +68,7 @@ INPUT=ft_memset.c \
 	  ft_isspace.c \
 	  ft_abs.c \
 	  ft_max.c \
+	  ft_min.c \
 	  ft_lstnew.c \
 	  ft_lstnewfrom.c \
 	  ft_lstdelone.c \

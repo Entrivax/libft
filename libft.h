@@ -6,7 +6,7 @@
 /*   By: lpilotto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 10:54:12 by lpilotto          #+#    #+#             */
-/*   Updated: 2016/06/06 15:10:14 by lpilotto         ###   ########.fr       */
+/*   Updated: 2016/06/16 12:27:46 by lpilotto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,7 @@ void				ft_putnbr_fd(int n, int fd);
 int					ft_isspace(int c);
 int					ft_abs(int n);
 double				ft_max(double a, double b);
+double				ft_min(double a, double b);
 t_list				*ft_lstnew(void const *content, size_t content_size);
 t_list				*ft_lstnewfrom(void const *content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
